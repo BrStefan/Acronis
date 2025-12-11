@@ -24,7 +24,7 @@
 </details>
 
 <details>
-  <summary>Details</summary>
+  <summary>Setup</summary>
 
   After cloning the project on a local machine, in order to setup the whole dependencies, you need to:
   - `chmod +x ./setup.sh` -> in order to give permission to the bash script to run
