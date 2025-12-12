@@ -17,9 +17,9 @@ jobs:
 
       # 2. Build docker image
       - name: Build Docker image
-        run: docker build -t kiwi-tests .
+        run: docker build -t kiwi-tests
 
       # 3. Run the tests in Docker
       - name: Run tests
         run: |
-          docker run kiwi-tests .
+          docker run kiwi-tests
